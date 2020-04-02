@@ -1,18 +1,17 @@
-package com.bfxy.springboot;
+package com.ljm.springboot;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.ljm.springboot.entity.Order;
+import com.ljm.springboot.producer.RabbitSender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import com.bfxy.springboot.entity.Order;
-import com.bfxy.springboot.producer.RabbitSender;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
